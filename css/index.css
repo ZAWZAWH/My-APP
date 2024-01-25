@@ -108,6 +108,9 @@ a:hover{
     filter: grayscale(100%);
 }
 
+img {
+    border-radius: 20px;
+}
 /*****************************/
 /* container  item           */
 /*****************************/
