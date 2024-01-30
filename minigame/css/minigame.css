@@ -41,7 +41,7 @@ p {
 
 
 header {
-    margin-top: 5px;
+    margin-top: 50px;
     color: blue;
     font-size: 60px;
     font-weight: bold;
@@ -88,12 +88,14 @@ footer>p {
 
     .container {
         padding-bottom: 23px;
+    }
 
+    .container img {
+        margin: 50px 30px;
     }
 
     header {
         font-size: 24px;
+        margin-top: 300px;
     }
-
-
 }
