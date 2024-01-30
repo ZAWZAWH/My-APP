@@ -30,10 +30,9 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 10px;
-    margin: 50px 0;
+    margin: 50px 15px;
 
 }
-
 
 p {
     margin: 0;
@@ -83,4 +82,18 @@ footer>p {
     font: 16px Rajdhani;
     text-align: center;
     background: rgba(1, 24, 31, 0.7);
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        padding-bottom: 23px;
+
+    }
+
+    header {
+        font-size: 24px;
+    }
+
+
 }
