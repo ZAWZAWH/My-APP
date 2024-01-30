@@ -23,7 +23,8 @@ body {
         Meiryo,
         sans-serif;
     background-image: url(../img/Omikuji-fortune.jpg);
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
 
 }
@@ -197,9 +198,15 @@ footer>p {
 
 /*iphonex*/
 @media screen and (max-width: 480px) and (max-height:900px) {
-    body {
+    /*body {
         background-position: 65% 0%;
         background-size: auto 1000px;
+    }*/
+
+    body {
+        background-position: 70% 20%;
+        background-size: auto 900px;
+
     }
 
     header {
