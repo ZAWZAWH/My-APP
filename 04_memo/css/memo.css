@@ -170,6 +170,13 @@ table tr {
 /* mobileのときのスタイル */
 @media screen and (max-width: 480px) {
 
+  body {
+    background-position: 47% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
   /* ラベル */
   label {
     left: 0.1em;
