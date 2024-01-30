@@ -91,6 +91,19 @@ header {
     user-select: none;
 }
 
+.btn {
+    margin-top: 8px;
+    margin-left: 8px;
+    padding: 12px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    /*24*/
+    background: rgb(26, 212, 212);
+    user-select: none;
+    cursor: pointer;
+}
+
 #btn1:hover {
     animation: shaking 0.3s infinite;
 }
